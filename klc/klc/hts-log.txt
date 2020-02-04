@@ -1,0 +1,26 @@
+HTTrack3.48-22+htsswf+htsjava launched on Wed, 29 Jan 2020 17:54:10 at http://keenitsolutions.com/products/html/edulearn/edulearn-demo/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://keenitsolutions.com/products/html/edulearn/edulearn-demo/index.html -O1 "C:\Users\koo_c\Downloads\klc\klc" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:54:12	Warning: 	Note: due to keenitsolutions.com remote robots.txt rules, links beginning with these path will be forbidden: /administrator/, /bin/, /cache/, /cli/, /components/, /includes/, /installation/, /language/, /layouts/, /libraries/, /logs/, /media/, /modules/, /plugins/, /templates/, /tmp/ (see in the options to disable this)
+18:03:01	Warning: 	Retry after error -4 (Incorrect length (198336 Bytes, 345011 expected)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home1/slide1.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index.html)
+18:03:03	Warning: 	Retry after error -4 (Incorrect length (109529 Bytes, 280616 expected)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home1/slide2.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index.html)
+18:03:06	Warning: 	Retry after error -4 (Incorrect length (143911 Bytes, 251987 expected)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home1/slide3.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index.html)
+18:03:18	Warning: 	Retry after error -4 (No data (connection closed)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/products/3.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index.html)
+18:03:20	Warning: 	File not parsed, looks like binary: keenitsolutions.com/products/html/edulearn/edulearn-demo/fonts/fontawesome-webfont.woff2?v=4.7.0
+18:03:20	Warning: 	Retry after error -4 (Incorrect length (141460 Bytes, 254473 expected)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home2/slide1.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index2.html)
+18:03:24	Warning: 	Retry after error -4 (No data (connection closed)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/courses/8.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index2.html)
+18:03:24	Warning: 	Retry after error -4 (No data (connection closed)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/choose-us/1.png (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index2.html)
+18:03:29	Warning: 	Retry after error -4 (Incorrect length (830500 Bytes, 985583 expected)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home5/1_1.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index5.html)
+18:03:29	Warning: 	Retry after error -4 (No data (connection closed)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/kids/kids2.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index5.html)
+18:03:38	Warning: 	Retry after error -4 (No data (connection closed)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/gallery/kids/1.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index5.html)
+18:03:48	Warning: 	Retry after error -4 (No data (connection closed)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/gallery/4.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/gallery.html)
+18:03:54	Warning: 	Retry after error -4 (No data (connection closed)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/gallery/6.jpg (from keenitsolutions.com/products/html/edulearn/edulearn-demo/gallery.html)
+18:04:07	Warning: 	Retry after error -4 (Incorrect length (275444 Bytes, 442395 expected)) at link keenitsolutions.com/products/html/edulearn/edulearn-demo/images/choose-us/1.png (from keenitsolutions.com/products/html/edulearn/edulearn-demo/index2.html)
+
+HTTrack Website Copier/3.48-22 mirror complete in 10 minutes 6 seconds : 283 links scanned, 269 files written (16381309 bytes overall) [15668032 bytes received at 25854 bytes/sec], 1192431 bytes transferred using HTTP compression in 40 files, ratio 32%, 4.1 requests per connection
+(No errors, 15 warnings, 0 messages)
