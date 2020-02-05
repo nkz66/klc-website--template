@@ -7144,6 +7144,17 @@ ul {
   /* width:143px;
   height:54px; */
 }
+.location-logo{
+  font-size: 32px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.nkz-footer-logo{
+  width: 120px;
+	margin-top: -30px;
+  margin-bottom: 14px; 
+}
+
 
 @media only screen and (max-width: 480px) {
   .inner-page .logo-area,
@@ -7152,11 +7163,15 @@ ul {
   .home5 .logo-area {
     top: 8px !important;
   }
+  
 }
 @media only screen and (max-width: 540px) {
   .logo-area img {
     max-width: 100% !important;
     width: 60px;
+  }
+  .nkz-footer-logo{
+    padding-top: 20px;
   }
 }
 
@@ -7165,7 +7180,7 @@ ul {
     display: block;
     width: 100%;
     overflow: hidden;
-  padding-top: calc(1 / 1 * 100%);
+  padding-top: calc(9 / 16 * 100%);
 }
 
 .markYoutubeIframeScale iframe{
