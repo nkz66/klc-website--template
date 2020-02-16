@@ -7138,11 +7138,7 @@ ul {
 
 .nkz-logo {
   /* Mark */
-  width: 80px;
-  transform: scale(1.5);
-  transform-origin: 0 50%;
-  /* width:143px;
-  height:54px; */
+  width:120px;
 }
 .location-logo{
   font-size: 32px;
@@ -7155,23 +7151,21 @@ ul {
   margin-bottom: 14px; 
 }
 
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 540px) {
+  .nkz-footer-logo{
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
   .inner-page .logo-area,
   .instructor-home .logo-area,
   .home3 .logo-area,
   .home5 .logo-area {
-    top: 8px !important;
+    top: 0px !important;
   }
-  
-}
-@media only screen and (max-width: 540px) {
   .logo-area img {
     max-width: 100% !important;
-    width: 60px;
-  }
-  .nkz-footer-logo{
-    padding-top: 20px;
+    width:80px;
   }
 }
 
@@ -7201,3 +7195,58 @@ ul {
   /* padding: 9px 20px; */
   /* padding-top: 15px; */
 }
+
+/*---------mark------------*/
+#rs-slider .slide-content .slider-desc{
+  padding-right: 10%;
+}
+.book_preload{
+  display:none;
+}
+.instructor-home .rs-header .logo-area{
+  padding-top:0;
+}
+
+.rs-services-style1 .services-item{
+  height: 178px;
+  display: flex;
+  align-items: center;
+}
+
+.rs-services-style1 .services-desc{
+  width: 100%;
+}
+
+.rs-learning-objectives .courses-item{
+  padding: 0;
+}
+
+.rs-learning-objectives .courses-item img{
+  width: 100%;
+}
+
+.copyFromContactPageButton {
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff3115;
+  margin-top: 15px;
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  padding: 0 50px;
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -ms-transition: 0.4s;
+}
+.copyFromContactPageButton:hover {
+  background: #212121;
+  color: #ffffff;
+}
+
+
+
+
