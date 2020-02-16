@@ -7412,6 +7412,9 @@ a:active, a:hover{
   border: 1px solid #f9a748;
   color:#f9a748;
 }
+.home3 .rs-toolbar .rs-toolbar-left .welcome-message a:hover, .home5 .rs-toolbar .rs-toolbar-left .welcome-message a:hover, .instructor-home .rs-toolbar .rs-toolbar-left .welcome-message a:hover {
+  color: white;
+}
 /* f9a748 orange*/
 /* e09640 darken orange*/
 /* 19226d blue */
