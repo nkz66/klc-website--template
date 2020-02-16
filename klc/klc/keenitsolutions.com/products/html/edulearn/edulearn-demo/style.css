@@ -7229,7 +7229,7 @@ ul {
   display: block;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #ff3115;
+  background-color: #19226d;
   margin-top: 15px;
   border: none;
   height: 50px;
@@ -7243,10 +7243,167 @@ ul {
   -ms-transition: 0.4s;
 }
 .copyFromContactPageButton:hover {
-  background: #212121;
+  background: #0b0f32;
   color: #ffffff;
+}
+
+.inner-page .searce-box{
+  display: none;
 }
 
 
 
-
+a{
+  color: #19226d;
+}
+a:active, a:hover{
+  color: #19226d;
+}
+.instructor-home .rs-header .main-menu .rs-menu ul li a:hover, .instructor-home .rs-header .main-menu .rs-menu ul li.active a, .instructor-home .rs-header .main-menu .rs-menu ul li.current-menu-item > a {
+  color: #f9a748 !important;
+}
+.rs-services-style1 .services-item {
+  background-color: #f9f9f9;
+}
+.rs-services-style1 .services-item{
+  color: #19226d;
+}
+.rs-services-style1 .services-item:hover{
+  background-color: #f9f9f9;
+}
+.rs-services-style1 .services-item:hover .services-icon{
+  background-color: #f9f9f9;
+}
+.rs-services-style1 .services-item {
+  transition: none;
+}
+.rs-services-style1 .services-desc .services-title{
+  color:#333;
+}
+.rs-services-style1 .services-desc p{
+  color:#555;
+}
+.rs-services-style1 .services-item:hover .services-icon, .rs-services-style1 .services-item:hover .services-desc p{
+  color:#555;
+}
+.rs-services-style1 .services-icon {
+  background-color: #f9f9f9;
+  color: #19226d;
+}
+.instructor-home .rs-header .apply-box{
+  background-color: #19226d;
+}
+.instructor-home .rs-header .apply-box:hover{
+  background-color: #0b0f32;
+}
+#rs-slider .slide-content .sl-get-started-btn{
+  background-color: #19226d;
+  border: 2px solid #19226d;
+}
+#rs-slider .slide-content .sl-get-started-btn:hover{
+  background-color: #0b0f32;
+  border: 2px solid #0b0f32;
+}
+#rs-slider .slide-content .sl-readmore-btn{
+  background-color: #f9a748;
+  border: 2px solid #f9a748;
+}
+#rs-slider .slide-content .sl-readmore-btn:hover{
+  background-color: #e09640;
+  border: 2px solid #e09640;
+}
+#rs-slider .owl-dots .owl-dot.active{
+  background-color: #f9a748;
+}
+.rs-video .video-content a i{
+  color: #f9a748;
+}
+.rs-video .video-content a{
+  border: 2px solid #f9a748
+}
+.rs-video .video-content a:hover i{
+ border-color: #f9a748;
+}
+#scrollUp i{
+  background-color: #f9a748;
+}
+#scrollUp i:hover{
+  background-color: #e09640;
+}
+.sec-title:after{
+  background:#e09640;
+}
+.sec-title-2 h2:after{
+  background:#e09640;
+}
+.rs-testimonial-2 .testimonial-item .testi-desc:before, .rs-testimonial-2 .testimonial-item .testi-desc:after{
+  color:#f9a748;
+}
+.rs-courses-3 .course-item .course-img .course-value{
+  background-color: #f9a748;
+}
+.rs-events .event-item .event-date i{
+  color: #19226d;
+}
+.rs-footer .footer-contact-desc .contact-inner i{
+  color:white;
+}
+.rs-footer .footer-title:after{
+  background-color: #f9a748;
+}
+.rs-footer .footer-top .recent-post-widget .post-item .post-date{
+  background-color: #f9a748;
+}
+.rs-footer .footer-top .sitemap-widget li a:hover, .rs-footer .footer-top .sitemap-widget li a:focus{
+  color:#f9a748;
+}
+.rs-footer .footer-share ul li a:hover {
+  background-color: #e09640;
+  color: #ffffff;
+}
+.rs-toolbar .rs-toolbar-left .welcome-message i{
+  color:#f9a748;
+}
+.instructor-home .rs-menu-toggle i{
+  color:#f9a748;
+}
+.rs-header-2 .menu-area .rs-menu .nav-menu > li > a:hover{
+  color:#f9a748 !important;
+}
+.rs-header .menu-area .rs-menu li.current_page_item > a, .rs-header-2 .menu-area .rs-menu li.current_page_item > a, .rs-header-3 .menu-area .rs-menu li.current_page_item > a, .rs-header-4 .menu-area .rs-menu li.current_page_item > a, .rs-header .menu-area .rs-menu li.current-menu-item > a, .rs-header-2 .menu-area .rs-menu li.current-menu-item > a, .rs-header-3 .menu-area .rs-menu li.current-menu-item > a, .rs-header-4 .menu-area .rs-menu li.current-menu-item > a, .rs-header .menu-area .rs-menu li.active > a, .rs-header-2 .menu-area .rs-menu li.active > a, .rs-header-3 .menu-area .rs-menu li.active > a, .rs-header-4 .menu-area .rs-menu li.active > a, .rs-header .menu-area .rs-menu li a:hover, .rs-header-2 .menu-area .rs-menu li a:hover, .rs-header-3 .menu-area .rs-menu li a:hover, .rs-header-4 .menu-area .rs-menu li a:hover{
+  color:#f9a748 !important;
+}
+.rs-breadcrumbs ul li{
+  color:#f9a748 !important;
+}
+.abt-title h2:after{
+  background-color: #f9a748;
+}
+.rs-timeline .rs-timeline-icon i{
+  color:#f9a748;
+}
+.rs-testimonial .testimonial-item .testi-desc:before, .rs-testimonial .testimonial-item .testi-desc:after{
+  color:#f9a748;
+}
+.rs-testimonial .owl-controls .owl-dots .owl-dot.active{
+  background-color: #e09640;
+}
+.single-blog-details .share-section .share-link1 li:first-child a{
+  background: #f9a748;
+  color: #212121;
+  border: 1px solid #f9a748;
+}
+.single-blog-details .share-section2 .share-link li a:hover{
+  background: #19226d;
+  color: #fff;
+  border: 1px solid #19226d;
+}
+.sidebar-area .tags-cloud ul li a:hover {
+  background-color: #19226d;
+  border-color: #19226d;
+  color: #ffffff;
+}
+/* f9a748 orange*/
+/* e09640 darken orange*/
+/* 19226d blue */
+/* 0b0f32 darken blue */
