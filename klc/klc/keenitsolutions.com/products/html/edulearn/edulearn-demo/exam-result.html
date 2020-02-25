@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="rs-toolbar-right">
+                            <div class="rs-toolbar-right  d-none d-sm-none d-md-block">
                                 <div class="toolbar-share-icon">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -93,39 +93,45 @@
 				<!-- Menu Start -->
 				<div class="menu-area menu-sticky">
 					<div class="container">
-						<div class="row rs-vertical-middle">
-							<div class="col-lg-1 col-md-12">
-								<div class="logo-area">
-									<a href="index.html" ><img class="nkz-logo" src="images/logo-white.png" alt="logo"></a>
-								</div>
-							</div>
-							<div class="col-lg-11 col-md-12">
-								<div class="main-menu">
-									<a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+				        <div class="row">
+                            <div class="col-lg-2 col-md-12">
+                                <div class="logo-area">
+                                    <a href="index.html"><img class="nkz-logo" src="images/logo-white.png" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-10 col-md-12">
+                                <div class="main-menu">
+                                    <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
 									<nav class="rs-menu">
 										<ul class="nav-menu">
+
 											<!-- Home -->
-											<li class="menu-item-has-children"> <a href="#" class="home">Home</a>
+											<li class="current-menu-item current_page_item menu-item-has-children"> <a href="#" class="home">Home <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 											  <ul class="sub-menu">
-												<li><a href="index.html">Home One</a> </li>
+												<li  class="active"><a href="index.html">Home One</a> </li>
 												<li><a href="index2.html">Home Two</a> </li>
+
 											  </ul>
 											</li>
-                                            <!-- End Home --> 
-                                             <!--business feature Menu Start-->
-											<li class="menu-item-has-children"> <a href="#">BUSINESS FEATURE <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+											<!-- End Home --> 
+
+											<!-- about start -->
+											<li class="menu-item-has-children"> <a href="#">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
-													<li> <a href="https://www.klceducation.asia/">KLC Franchise</a></li>
-													<li><a href="https://preschool.klceducation.asia/">KLC Pre-school</a></li>
-												
+													
+													<li> <a href="about.html">About Us </a></li>
+													<li><a href="environment.html">Environment</a></li>
+													<li><a href="awards.html">Awards</a></li>
+													<li><a href="blog.html.html">Corporate Social Responsibility</a></li> 
 												</ul>
-                                            </li>
-                                            
-                                            <!--program Menu Start-->
+											</li>
+											<!-- about end -->
+
+											<!--program Menu Start-->
 											<li class="menu-item-has-children"> <a href="#">Programme <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
-													<li><a href="mk.html">Master Key</a></li>
-													<li class="menu-item-has-children"> <a href="tb.html">Treasure Box <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+													<li><a href="mk.html">Phonic Programme</a></li>
+													<li class="menu-item-has-children"> <a href="tb.html">Cambridge English Assessment <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 														<ul class="sub-menu">
 															
 															<li><a href="./programme-treasure-box/pre-a1-starters.html">Pre A1 Starters</a></li>
@@ -134,42 +140,66 @@
 															<li><a href="./programme-treasure-box/a2-key.html">A2 Key </a></li> 
 															<li><a href="./programme-treasure-box/b1-preliminary.html">B1 Preliminary</a></li> 
 														</ul>
-                                                    </li>
-                                                    <li   class="active"><a href="exam-result.html">Exam Result</a></li>
+													</li>
+													
 												</ul>
 											</li>
 											<!--program-->
-											
-											<!--branch Menu Start-->
-											<li> <a href="branch.html">Branches</a></li>
-											<!--branch Menu End-->
 
 											<!--testimonial Menu Start-->
 											<li class="menu-item-has-children"> <a href="#">Testimonial <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
 													<li><a href="testimonial-video.html">Video Testimonial</a></li>
 													<li><a href="testimonial-student.html">Student Testimonial</a></li>
-													<!-- <li><a href="testimonial-parent.html">Parent</a></li> -->
+													<li><a href="exam-result.html">Exam Result</a></li>
 												</ul>
 											</li>
-                                            <!--testimonial-->
+											<!--testimonial end-->
+                                            
+                                             <!--business feature Menu Start-->
+											<!-- <li class="menu-item-has-children"> <a href="#">BUSINESS FEATURE <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+												<ul class="sub-menu">
+													<li> <a href="https://www.klceducation.asia/">KLC Franchise</a></li>
+													<li><a href="https://preschool.klceducation.asia/">KLC Pre-school</a></li>												
+												</ul>
+											</li> -->
+											<!--business feature-->
 
-                                            <!-- about start-->
-                                            <li class="menu-item-has-children"> <a href="#">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+											<!--klc pre-school start -->
+											<!-- <li><a href="https://preschool.klceducation.asia/">KLC Pre-school</a></li> -->
+											<!--klc pre-school end -->
+
+											<!-- klc franchise start-->
+											<li> <a href="https://www.klceducation.asia/">KLC Franchise</a></li>
+											<!-- klc franchise end -->
+
+
+											
+
+											<!-- Branches Start -->
+											
+												<li> <a href="branch.html">Branches</a></li>
+											
+											<!-- Branches End -->
+
+											
+
+											<!-- <li class="menu-item-has-children"> <a href="#">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
 													
 													<li> <a href="about.html">About Us </a></li>
 													<li><a href="environment.html">Environment</a></li>
 													<li><a href="awards.html">Awards</a></li>
-													<li><a href="blog.html">Corporate Social Responsibility</a></li>
+													<li><a href="blog.html.html">Corporate Social Responsibility</a></li> 
 												</ul>
-											</li>
-                                            <!-- about end -->
- 
-											
+											</li> -->
+
 											<!--other Menu Start-->
 											<li class="menu-item-has-children"> <a href="#">More <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
+													<!-- <li> <a href="branch.html">Branches</a></li> -->
+													<li><a href="https://preschool.klceducation.asia/">KLC Pre-school</a></li>
+													<!-- <li> <a href="branch.html">Branches</a></li> -->
 													<li> <a href="contact.html">Contact</a></li>
 													<li> <a href="blog.html">Blog</a></li>
 													<li> <a href="blog.html">New</a></li>
@@ -177,15 +207,16 @@
 																																					
 												</ul>
 											</li>
-                                            <!--other-->
-                                            
+											<!--other-->
 										</ul>
 									</nav>
-								</div>
-								<div class="searce-box">
-                                    <a class="rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a>
-                                </div>
-							</div>													
+									
+                                    
+							</div>
+							<div class="searce-box">
+								<a class="rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+							</div>
+                        </div>
 						</div>
 					</div>
 				</div>
@@ -217,7 +248,7 @@
 		<!-- Breadcrumbs End -->
 		
 		<!-- Contact Section Start -->
-        <div id="rs-team-2" class="rs-team-2 team-page sec-spacer" style="margin-bottom: 50px;">
+        <!-- <div id="rs-team-2" class="rs-team-2 team-page sec-spacer" style="margin-bottom: 50px;">
 			<div class="container">
                 <div class="gridFilter">
                     <button class="active" data-filter="*">ALL</button>
@@ -225,7 +256,10 @@
                     <button data-filter=".filter2">2018</button>
                     <button data-filter=".filter3">2019</button>
                     <button data-filter=".filter4">2020</button>
-                </div>
+				</div>
+
+
+
 				<div class="row grid">
 					<div class="col-lg-4 col-md-6 col-xs-6 grid-item filter1">
 		                <div class="team-item">
@@ -372,8 +406,238 @@
 					</ul>
 			    </nav>
 			</div>
-        </div>
-        <!-- Contact Section End -->     
+        </div> -->
+		<!-- Contact Section End -->  
+		
+		
+		<!-- exam result start -->
+		<div class="shop-page-area sec-spacer">
+			<div class="container">
+			  <div class="row topbar-area">
+				  <div class="col-lg-6 col-md-6">
+					<div class="showing-result">
+					  <ul>
+						<li class="seclec-box">
+						  <form>
+							<fieldset>
+							  <div class="form-group">
+								<select class="form-control">
+								  <option>Year</option>
+								  <option>2010</option>
+								  <option>2011</option>
+								  <option>2019</option>
+								  <option>2020</option>
+								  <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</select>
+
+								<select class="form-control">
+									<option>Month</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<i class="fa fa-angle-down" aria-hidden="true"></i>
+								  </select>
+
+								  <select class="form-control">
+									<option>Exam Category</option>
+									<option>Phonic</option>
+									<option>pre a1 starter</option>
+									<option>a1 mover</option>
+									<option>a2 flyer</option>
+									<option>a2 key</option>
+									<option>B1 Preliminary</option>
+									<i class="fa fa-angle-down" aria-hidden="true"></i>
+								  </select>
+							  </div>
+							</fieldset>
+						  </form>
+						</li>
+						<span>Showing 1–12 of 145 results</span>
+					  </ul>
+					</div><!-- .showing-result end -->
+				  </div>
+				  
+				  <div class="col-lg-6 col-md-6">
+					<div class="showing-result showing-Short">
+					  <ul>
+						<li class="seclec-box">
+						  <form>
+							<fieldset>
+							  <div class="form-group">
+								<select id="disabledSelect" class="form-control">
+								  <option>Short by</option>
+								  <option>High to Low</option>
+								  <option>Low to High</option>
+								  <option>A to Z</option>
+								  <option>Z to A</option>
+								</select>
+
+								<div class="box-search">
+                                    <input class="form-control" placeholder="Search Here ..." name="srch-term" id="srch-term" type="text">
+                                    <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </div>
+							  </div>
+							</fieldset>
+						  </form>
+						</li>
+					  </ul>
+					</div><!-- .showing-result showing-Short end -->
+				  </div>
+			  </div>
+			  <div class="row product-list">
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/1.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+				  
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/2.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+				  
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/3.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+				  
+
+			  </div>
+				  <div class="row product-list">
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/1.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+				  
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/2.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+				  
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/3.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+
+				  </div>
+				  
+				  <div class="row product-list">
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/1.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+				  
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/2.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+				  
+				  <div class="col-lg-4 col-md-6">
+					<div class="single-details">
+					  <div class="images"> <a href="#"><img src="images/exam-result/3.jpg" alt=""></a>
+					  </div>
+					  <div class="triangle_left"></div>
+					  <h4><a href="#">Liu Cai Hua</a></h4>
+					  <div class="price-details">
+						<ul>
+						  <li> Master key </li>
+						</ul>
+					  </div>
+					</div><!-- .single-details end -->
+				  </div>
+
+				  </div>
+				  
+			  <div class="row">
+				  <div class="col-sm-12 col-xs-12 text-center">
+					  <nav aria-label="Page navigation example">
+						  <ul class="pagination justify-content-center">
+							  <li class="page-item disabled"><a class="page-link fa fa-angle-left" href="#" tabindex="-1"></a></li>
+							  <li class="page-item"><a class="page-link active" href="#">1</a></li>
+							  <li class="page-item"><a class="page-link" href="#">2</a></li>
+							  <li class="page-item"><a class="page-link dotted" href="#">...</a></li>
+							  <li class="page-item"><a class="page-link" href="#">5</a></li>
+							  <li class="page-item"><a class="page-link" href="#">6</a></li>
+							  <li class="page-item"><a class="page-link fa fa-angle-right" href="#"></a></li>
+						  </ul>
+					  </nav><!-- .navigation end -->
+				  </div>
+			  </div>
+			</div>
+		  </div>
+		<!-- exam result end -->
        
         <!-- Partner Start -->
         <!-- <div id="rs-partner" class="rs-partner sec-color pt-70 pb-170">
