@@ -73,7 +73,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="rs-toolbar-right">
+                            <div class="rs-toolbar-right  d-none d-sm-none d-md-block">
                                 <div class="toolbar-share-icon">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -94,39 +94,45 @@
 				<!-- Menu Start -->
 				<div class="menu-area menu-sticky">
 					<div class="container">
-						<div class="row rs-vertical-middle">
-							<div class="col-lg-1 col-md-12">
-								<div class="logo-area">
-									<a href="index.html" ><img class="nkz-logo" src="images/logo-white.png" alt="logo"></a>
-								</div>
-							</div>
-							<div class="col-lg-11 col-md-12">
-								<div class="main-menu">
-									<a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+				        <div class="row">
+                            <div class="col-lg-2 col-md-12">
+                                <div class="logo-area">
+                                    <a href="index.html"><img class="nkz-logo" src="images/logo-white.png" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-10 col-md-12">
+                                <div class="main-menu">
+                                    <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
 									<nav class="rs-menu">
 										<ul class="nav-menu">
+
 											<!-- Home -->
-											<li class="menu-item-has-children"> <a href="#" class="home">Home</a>
+											<li class="current-menu-item current_page_item menu-item-has-children"> <a href="#" class="home">Home <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 											  <ul class="sub-menu">
-												<li><a href="index.html">Home One</a> </li>
+												<li  class="active"><a href="index.html">Home One</a> </li>
 												<li><a href="index2.html">Home Two</a> </li>
+
 											  </ul>
 											</li>
-                                            <!-- End Home --> 
-                                             <!--business feature Menu Start-->
-											<li class="menu-item-has-children"> <a href="#">BUSINESS FEATURE <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+											<!-- End Home --> 
+
+											<!-- about start -->
+											<li class="menu-item-has-children"> <a href="#">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
-													<li> <a href="https://www.klceducation.asia/">KLC Franchise</a></li>
-													<li><a href="https://preschool.klceducation.asia/">KLC Pre-school</a></li>
-												
+													
+													<li> <a href="about.html">About Us </a></li>
+													<li><a href="environment.html">Environment</a></li>
+													<li><a href="awards.html">Awards</a></li>
+													<li><a href="blog.html">Corporate Social Responsibility</a></li> 
 												</ul>
-                                            </li>
-                                            
-                                            <!--program Menu Start-->
+											</li>
+											<!-- about end -->
+
+											<!--program Menu Start-->
 											<li class="menu-item-has-children"> <a href="#">Programme <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
-													<li><a href="mk.html">Master Key</a></li>
-													<li class="menu-item-has-children"> <a href="tb.html">Treasure Box <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+													<li><a href="mk.html">Phonic Programme</a></li>
+													<li class="menu-item-has-children"> <a href="tb.html">Cambridge English Assessment <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 														<ul class="sub-menu">
 															
 															<li><a href="./programme-treasure-box/pre-a1-starters.html">Pre A1 Starters</a></li>
@@ -136,40 +142,65 @@
 															<li><a href="./programme-treasure-box/b1-preliminary.html">B1 Preliminary</a></li> 
 														</ul>
 													</li>
+													
 												</ul>
 											</li>
 											<!--program-->
-											
-											<!--branch Menu Start-->
-											<li> <a href="branch.html">Branches</a></li>
-											<!--branch Menu End-->
 
 											<!--testimonial Menu Start-->
 											<li class="menu-item-has-children"> <a href="#">Testimonial <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
 													<li><a href="testimonial-video.html">Video Testimonial</a></li>
 													<li><a href="testimonial-student.html">Student Testimonial</a></li>
-													<!-- <li><a href="testimonial-parent.html">Parent</a></li> -->
+													<li><a href="exam-result.html">Exam Result</a></li>
 												</ul>
 											</li>
-                                            <!--testimonial-->
+											<!--testimonial end-->
+                                            
+                                             <!--business feature Menu Start-->
+											<!-- <li class="menu-item-has-children"> <a href="#">BUSINESS FEATURE <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+												<ul class="sub-menu">
+													<li> <a href="https://www.klceducation.asia/">KLC Franchise</a></li>
+													<li><a href="https://preschool.klceducation.asia/">KLC Pre-school</a></li>												
+												</ul>
+											</li> -->
+											<!--business feature-->
 
-                                            <!-- about start-->
-                                            <li class="menu-item-has-children"> <a href="#">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+											<!--klc pre-school start -->
+											<!-- <li><a href="https://preschool.klceducation.asia/">KLC Pre-school</a></li> -->
+											<!--klc pre-school end -->
+
+											<!-- klc franchise start-->
+											<li> <a href="https://www.klceducation.asia/">Franchise</a></li>
+											<!-- klc franchise end -->
+
+
+											
+
+											<!-- Branches Start -->
+											
+												<li> <a href="branch.html">Branches</a></li>
+											
+											<!-- Branches End -->
+
+											
+
+											<!-- <li class="menu-item-has-children"> <a href="#">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
 													
-													<li  class="active"> <a href="about.html">About Us </a></li>
+													<li> <a href="about.html">About Us </a></li>
 													<li><a href="environment.html">Environment</a></li>
 													<li><a href="awards.html">Awards</a></li>
-													<li><a href="blog.html">Corporate Social Responsibility</a></li>
+													<li><a href="blog.html.html">Corporate Social Responsibility</a></li> 
 												</ul>
-											</li>
-                                            <!-- about end -->
- 
-											
+											</li> -->
+
 											<!--other Menu Start-->
 											<li class="menu-item-has-children"> <a href="#">More <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 												<ul class="sub-menu">
+													<!-- <li> <a href="branch.html">Branches</a></li> -->
+													<li><a href="https://preschool.klceducation.asia/">KLC Pre-school</a></li>
+													<!-- <li> <a href="branch.html">Branches</a></li> -->
 													<li> <a href="contact.html">Contact</a></li>
 													<li> <a href="blog.html">Blog</a></li>
 													<li> <a href="blog.html">New</a></li>
@@ -177,15 +208,16 @@
 																																					
 												</ul>
 											</li>
-                                            <!--other-->
-                                            
+											<!--other-->
 										</ul>
 									</nav>
-								</div>
-								<div class="searce-box">
-                                    <a class="rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a>
-                                </div>
-							</div>													
+									
+                                    
+							</div>
+							<div class="searce-box">
+								<a class="rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+							</div>
+                        </div>
 						</div>
 					</div>
 				</div>
@@ -308,7 +340,7 @@
                                 <h4 class="course-title"><a href="#">KLC Education Group</a></h4>
 		                    	<div class="course-desc">
 		                    		<p>
-                                        KLC Education Group adalah tulang belakang KLC dan ia wujud untuk menyokong kedua-dua Pusat Bahasa dan Pra-sekolah
+                                        KLC Education Group is the backbone of the KLC and it exists to support both the Language Centre and the Pre-school
 		                    		</p>
 		                    	</div>
 		                    </div>
@@ -320,10 +352,10 @@
 		                        <img src="images/courses/logo-language-center.png" alt="" />
 		                    </div>
 		                    <div class="course-body "  style="text-align:center;">		                    	
-		                    	<h4 class="course-title"><a href="#">Pusat Bahasa KLC</a></h4>
+		                    	<h4 class="course-title"><a href="#">KLC Language Centre</a></h4>
 		                    	<div class="course-desc">
 		                    		<p>
-                                        Perniagaan teras Pusat Bahasa kami adalah pembentukan kemahiran asas dalam Bahasa Inggeris
+                                        Our Language Centre’s Core business is the enrichment of the proficiency in the English Language
 		                    		</p>
 		                    	</div>
 		                    </div>
@@ -335,10 +367,10 @@
 		                        <img src="images/courses/logo-preshcool.png" alt="" />
 		                    </div>
 		                    <div class="course-body"  style="text-align:center;">
-		                    	<h4 class="course-title"><a href="#">Pra-sekolah KLC</a></h4>
+		                    	<h4 class="course-title"><a href="#">KLC Pre-school</a></h4>
 		                    	<div class="course-desc">
 		                    		<p>
-                                        Pra-sekolah KLC adalah sebuah tadika premium yang memfokuskan kepada memaksimumkan perkembangan zaman awal kanak-kanak muda.
+                                        KLC Pre-school is a premium kindergarten that focuses on maximising early childhood developments
 		                    		</p>
 		                    	</div>
 		                    </div>
@@ -359,7 +391,7 @@
             	<div class="abt-title mb-70 text-center">
             	    <h2>Time Line</h2>      
             	</div>
-                <div class="rs-timeline">
+                <!-- <div class="rs-timeline">
                 	<div class="rs-timeline-block">
                 		<div class="rs-timeline-icon">
                 			<i class="fa fa-pencil"></i>
@@ -385,8 +417,6 @@
                 			</a>
                 			<h3><a href="#">Opened KLC Language Centre in Sri Petaling</a></h3>
                 			<p>January 2018</p>
-                			<!-- <a href="#0" class="rs-read-more">Read more</a>
-                			<span class="rs-date">2005 March 18</span> -->
                 		</div>
                 	</div>
 
@@ -431,8 +461,10 @@
                 			<p>January 2018</p>
                 		</div>
                 	</div>
-                </div>
-            </div>
+                </div> -->
+				<!-- <img style="-ms-transform: rotate(90deg);transform: rotate(90deg)" width="900" height="500" src="images/testimonial/time-line.jpg" alt=""> -->
+				<img width="900" height="500" src="images/testimonial/time-line2.jpg" alt="">
+			</div>
         </div>
         <!-- titmeline 2 End -->
 
@@ -473,7 +505,7 @@
 		<div id="rs-partner" class="rs-partner pt-70 pb-70" style="margin-bottom: 50px;">
             <div class="container">
 				<div class="sec-title mb-50 text-center">
-					<h2>10 NILAI UTAMA</h2>      
+					<h2>10 CORE VALUE</h2>      
 				</div>
 				<div class="rs-carousel owl-carousel" data-loop="true" data-items="5" data-margin="80" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="2000" data-dots="false" data-nav="false" data-nav-speed="false" data-mobile-device="2" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="4" data-ipad-device-nav="false" data-ipad-device-dots="false" data-md-device="5" data-md-device-nav="false" data-md-device-dots="false">
                     <div class="partner-item">
