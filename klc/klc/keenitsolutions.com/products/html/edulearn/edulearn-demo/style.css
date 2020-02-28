@@ -7155,6 +7155,22 @@ ul {
   .nkz-footer-logo{
     padding-top: 20px;
   }
+  .cambrigeLogo{    
+    height: 72px !important;
+    right: 214px !important;
+  }
+  #rs-video{
+    padding:30px 0;
+  }
+  .rs-video .video-content span{
+    font-size: 24px;
+  }
+  #rs-products .sec-title.mb-50.text{
+    margin-bottom: 10px !important;
+  }
+  .rs-footer .footer-top .sitemap-widget li{
+    line-height: 1.5;
+  }
 }
 @media only screen and (max-width: 992px) {
   .inner-page .logo-area,
@@ -7256,8 +7272,47 @@ ul {
 .rs-team-2 .team-item .team-img:before{
   border:none;
 }
+.button-style-1{
+  display: block;
+  padding: 2px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #19226d;
+  background:#19226d;
+  color:white;
+}
+.button-style-2{
+  display: block;
+  padding: 2px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #19226d;
+  background:#f9a748;
+  color:black;
+}
+.rs-testimonial-2 .owl-controls .owl-dots .owl-dot{
+  background: #eee;
+}
+.rs-footer .footer-contact-desc{
+  display: none;
+}
+.rs-footer{
+  margin-top:0;
+}
+.event-item .event-img:after, .cource-item .event-img:after, .event-item .cource-img:after, .cource-item .cource-img:after{
+  display: none;
+}
+.event-img img{
+  border:1px solid #ccc;
+}
 
 
+/* f9a748 orange*/
+/* e09640 darken orange*/
+/* 19226d blue */
+/* 0b0f32 darken blue */
 a{
   color: #19226d;
 }
@@ -7415,7 +7470,3 @@ a:active, a:hover{
 .home3 .rs-toolbar .rs-toolbar-left .welcome-message a:hover, .home5 .rs-toolbar .rs-toolbar-left .welcome-message a:hover, .instructor-home .rs-toolbar .rs-toolbar-left .welcome-message a:hover {
   color: white;
 }
-/* f9a748 orange*/
-/* e09640 darken orange*/
-/* 19226d blue */
-/* 0b0f32 darken blue */
