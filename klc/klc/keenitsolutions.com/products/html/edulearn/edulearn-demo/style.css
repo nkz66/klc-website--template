@@ -558,7 +558,7 @@ ul {
   background-position: center top;
 }
 .bg5 {
-  background-image: url(images/bg/testimonial-bg.jpg);
+  background-image: url(images/bg/bg13.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center top;
@@ -570,7 +570,7 @@ ul {
   background-position: center top;
 }
 .bg7 {
-  background-image: url(images/bg/bg4.jpg);
+  background-image: url(images/bg/bg11.jpg);
   background-size: cover;
   background-position: center;
   background-position: center top;
@@ -582,6 +582,11 @@ ul {
 }
 .bg9 {
   background-image: url(images/bg/video-bg2.jpg);
+  background-attachment: fixed;
+  background-position: center top;
+}
+.bg10 {
+  background-image: url(images/bg/bg14.jpg);
   background-attachment: fixed;
   background-position: center top;
 }
