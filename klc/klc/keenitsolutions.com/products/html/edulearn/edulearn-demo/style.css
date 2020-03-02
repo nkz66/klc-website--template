@@ -585,10 +585,12 @@ ul {
   background-attachment: fixed;
   background-position: center top;
 }
+
 .bg10 {
-  background-image: url(images/bg/bg14.jpg);
+  background-image: url(images/bg/bg15.jpg);
   background-attachment: fixed;
   background-position: center top;
+  background-size: cover;
 }
 /* ------------------------------------
     02. Global Class
@@ -824,6 +826,9 @@ ul {
 .padding-0 {
   padding: 0 !important;
 }
+.pt-10 {
+  padding-top: 10px !important;
+}
 .pt-45 {
   padding-top: 45px !important;
 }
@@ -838,6 +843,9 @@ ul {
 }
 .pt-100 {
   padding-top: 100px !important;
+}
+.pb-0 {
+  padding-bottom: 0px !important;
 }
 .pb-40 {
   padding-bottom: 40px !important;
@@ -887,6 +895,12 @@ ul {
 }
 .mb-0 {
   margin-bottom: 0px !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.mb-25 {
+  margin-bottom: 25px !important;
 }
 .mb-30 {
   margin-bottom: 30px !important;
@@ -1947,16 +1961,16 @@ ul {
   transition: 0.3s;
   color: #ffffff;
 }
-.rs-breadcrumbs ul li a:before,
 .rs-breadcrumbs ul li a:after {
-  background-color: rgba(255, 255, 255, 0.8);
-  content: "";
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  content: ">";
   height: 15px;
   width: 2px;
-  position: absolute;
+  /* position: absolute;
   right: 7px;
-  top: 2px;
-  transform: rotate(26deg);
+  top: 2px; */
+    position: absolute;
+    right: 18px;
 }
 .rs-breadcrumbs ul li a:before {
   right: 13px;
@@ -7169,7 +7183,7 @@ ul {
   .cambrigeLogo{    
     height: 60px !important;
     right: 8px !important;
-    top: 0px;
+    top: 0px !important;
     position: absolute;
     right: 8px;
   }
@@ -7196,6 +7210,9 @@ ul {
   .logo-area img {
     max-width: 100% !important;
     width:80px;
+  }
+  .hideOnMobile{
+    display: none !important;
   }
 }
 
@@ -7224,6 +7241,16 @@ ul {
   line-height: 1.3; */
   /* padding: 9px 20px; */
   /* padding-top: 15px; */
+}
+.rs-testimonial-2 .owl-controls .owl-dots{
+  width: 100%;
+    text-align: center;
+    position: relative;
+    top: -32px;
+}
+.news-normal-block,
+.news-list-item{
+  background: white;
 }
 
 /*---------mark------------*/
@@ -7320,6 +7347,71 @@ ul {
 }
 .event-img img{
   border:1px solid #ccc;
+}
+.rs-about-style8 .content-part .play-btn {
+  position: relative;
+}
+.rs-about-style8 .content-part .play-btn .pulse-btn {
+  position: absolute;
+  background: #e41f05;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: #ffffff;
+  z-index: 1;
+}
+.rs-about-style8 .content-part .play-btn .pulse-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: transparent;
+  border: 2px solid #e41f05;
+  border-radius: 50%;
+  transition: all 200ms;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+.rs-about-style8 .content-part .play-btn .pulse-btn:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: transparent;
+  border-radius: 50%;
+  transition: all 200ms;
+  border: 2px solid #e41f05;
+}
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 991px){
+  .nav-menu span.rs-menu-parent i {
+      color: white;
+  }
 }
 
 
