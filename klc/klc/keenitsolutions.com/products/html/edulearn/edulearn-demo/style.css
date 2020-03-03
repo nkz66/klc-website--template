@@ -7416,10 +7416,20 @@ ul {
 .rs-menu .sub-menu li a {
   padding: 10px 32px;
 }
-@media only screen and (max-width: 991px){
-.rs-breadcrumbs {
-  padding: 0px 0 35px !important;
+.iframeFrame{
+  padding-top: calc(4/16 * 100%);
+  position: relative;
+  width: 267px;
 }
+@media only screen and (max-width: 991px){
+  .rs-breadcrumbs {
+    padding: 0px 0 35px !important;
+  }
+  .iframeFrame{
+    padding-top:calc(9/16 * 100%); 
+    position:relative;
+    width: 100%;
+  }
 }
 
 
