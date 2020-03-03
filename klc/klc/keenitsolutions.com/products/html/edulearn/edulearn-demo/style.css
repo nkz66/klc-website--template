@@ -7148,7 +7148,7 @@ ul {
   .instructor-home .rs-menu-toggle {
     color: #212121 !important;
   }
-  .instructor-home .rs-menu-toggle i {
+  .rs-menu-toggle i {
     color: #19226d;
   }
 }
@@ -7413,6 +7413,14 @@ ul {
       color: white;
   }
 }
+.rs-menu .sub-menu li a {
+  padding: 10px 32px;
+}
+@media only screen and (max-width: 991px){
+.rs-breadcrumbs {
+  padding: 0px 0 35px !important;
+}
+}
 
 
 /* f9a748 orange*/
@@ -7530,7 +7538,7 @@ a:active, a:hover{
 .rs-toolbar .rs-toolbar-left .welcome-message i{
   color:#f9a748;
 }
-.instructor-home .rs-menu-toggle i{
+.rs-menu-toggle i{
   color:#f9a748;
 }
 .rs-header-2 .menu-area .rs-menu .nav-menu > li > a:hover{
