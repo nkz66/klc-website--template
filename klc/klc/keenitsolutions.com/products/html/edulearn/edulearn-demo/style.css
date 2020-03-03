@@ -7431,6 +7431,37 @@ ul {
     width: 100%;
   }
 }
+.rs-timeline-2 ol li div{
+  width: 350px !important;
+}
+.rs-timeline-2 ol li {
+  width: 260px;
+}
+.rs-timeline .rs-timeline-content{
+  border: 3px solid #19226d;
+}
+.rs-timeline .rs-timeline-icon{
+  border: 3px solid #19226d;
+}
+.rs-timeline::before{
+  background: #19226d;
+}
+@media only screen and (max-width: 991px){
+  .rs-timeline .rs-timeline-content::before {
+    border-right: 10px solid #19226d;
+  }
+}
+@media only screen and (min-width: 1170px){
+.rs-timeline .rs-timeline-block:nth-child(2n) .rs-timeline-content::before {
+  border-color: transparent #19226d transparent transparent;
+}
+}
+@media only screen and (min-width: 1170px)
+{
+  .rs-timeline .rs-timeline-content::before {
+    border-left-color: #19226d;
+}
+}
 
 
 /* f9a748 orange*/
