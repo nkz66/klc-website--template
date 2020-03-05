@@ -575,8 +575,14 @@ ul {
   background-attachment: fixed;
   background-position: center top;
 }
-.bg7 {
+/* .bg7 {
   background-image: url(images/bg/bg11.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position: center top;
+} */
+.bg7 {
+  background-image: url(images/bg/bg26.jpg);
   background-size: cover;
   background-position: center;
   background-position: center top;
@@ -603,6 +609,19 @@ ul {
   background-attachment: fixed;
   background-position: center top;
   background-size: cover;
+}
+
+.bg11 {
+  background-image: url(images/bg/bg24.jpg);
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+}
+.bg12 {
+  background-image: url(images/bg/bg25.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position: center top;
 }
 /* ------------------------------------
     02. Global Class
