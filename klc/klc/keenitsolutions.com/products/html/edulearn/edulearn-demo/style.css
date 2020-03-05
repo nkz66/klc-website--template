@@ -546,13 +546,19 @@ ul {
   background-position: center top;
 }
 .bg3 {
-  background-image: url(images/bg/counter-bg.jpg);
+  background-image: url(images/bg/bg22.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center top;
 }
-.bg4 {
+/* .bg4 {
   background-image: url(images/bg/cta-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+} */
+.bg4 {
+  background-image: url(images/bg/bg20.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center top;
@@ -580,8 +586,14 @@ ul {
   background-attachment: fixed;
   background-position: center top;
 }
-.bg9 {
+/* .bg9 {
   background-image: url(images/bg/video-bg2.jpg);
+  background-attachment: fixed;
+  background-position: center top;
+} */
+
+.bg9 {
+  background-image: url(images/bg/bg23.jpg);
   background-attachment: fixed;
   background-position: center top;
 }
