@@ -373,3 +373,13 @@
 	
 
 })(jQuery);
+
+$( "#introduction-btn" ).click(function() {
+	// alert('GA Start');
+	// console.log('GA Start');
+	gtag('event', 'play', {
+		 'event_category': 'Video',
+		 'event_label': 'introduction',
+		 'value':1
+		 });
+});

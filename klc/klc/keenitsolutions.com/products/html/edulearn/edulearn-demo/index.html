@@ -51,7 +51,7 @@
 
 <body class="instructor-home">
 
-	<script>
+	<!-- <script>
 		window.fbAsyncInit = function() {
 		  FB.init({
 			xfbml            : true,
@@ -65,7 +65,7 @@
 		js = d.createElement(s); js.id = id;
 		js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
 		fjs.parentNode.insertBefore(js, fjs);
-	  }(document, 'script', 'facebook-jssdk'));</script>
+	  }(document, 'script', 'facebook-jssdk'));</script> -->
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -183,7 +183,7 @@
 														<li><a href="exam-result.html">Cambridge English Result</a></li>
 													</ul>
 												</li>
-												<li><a href="exchange-stundent.html">Camp</a></li>
+												<!-- <li><a href="exchange-stundent.html">Camp</a></li> -->
 											</ul>
 										</li>
 										<!--program-->
@@ -201,6 +201,7 @@
 											<a href="#">Testimonial <i class="fa fa-angle-down"
 													aria-hidden="true"></i></a>
 											<ul class="sub-menu">
+												
 												<li><a href="testimonial-video-parent.html">Parents</a></li>
 												<li><a href="testimonial-video-student.html">Students</a></li>
 											</ul>
@@ -233,12 +234,12 @@
 	<div id="rs-slider" class="slider-section4 slider-overlay-2">
 		<div id="home-slider">
 			<!-- Item 1 -->
-			<div class="item active">
+			<div class="item active slider1" >
 				<img src="images/slider/home4/slide3.jpg" alt="Slide1" />
 				<div class="slide-content">
 					<div class="display-table">
 						<div class="display-table-cell">
-							<div class="container">
+							<div class="container" id="slider1">
 								<h1 class="slider-title" data-animation-in="fadeInLeft"
 									data-animation-out="animate-out">English Specialist For <br />(4~16 years old)</h1>
 								<p data-animation-in="fadeInUp" data-animation-out="animate-out" class="slider-desc">
@@ -256,12 +257,12 @@
 			</div>
 
 			<!-- Item 2 -->
-			<div class="item">
+			<div class="item slider2">
 				<img src="images/slider/home4/slide2.jpg" alt="Slide2" />
 				<div class="slide-content">
 					<div class="display-table">
 						<div class="display-table-cell">
-							<div class="container">
+							<div class="container" id="slider2">
 								<h1 class="slider-title" data-animation-in="fadeInUp" data-animation-out="animate-out">
 									Phonics For <br />4~14 years old</h1>
 								<p data-animation-in="fadeInUp" data-animation-out="animate-out" class="slider-desc">
@@ -278,12 +279,12 @@
 			</div>
 
 			<!-- Item 3 -->
-			<div class="item">
+			<div class="item slider3" >
 				<img src="images/slider/home4/slide1.jpg" alt="Slide3" />
 				<div class="slide-content">
 					<div class="display-table">
 						<div class="display-table-cell">
-							<div class="container">
+							<div class="container" id="slider3">
 								<h1 class="slider-title" data-animation-in="fadeInUp" data-animation-out="animate-out">
 									Cambridge English For <br />(4~16 years old)</h1>
 								<p data-animation-in="fadeInUp" data-animation-out="animate-out" class="slider-desc">
@@ -307,8 +308,8 @@
 	<div class="pt-50 pb-45 rs-about-style8 bg4">
 		<div class="container">
 			<div class="content-part text-center">
-				<div class="play-btn" style="height: 95px;">
-					<a data-fancybox class="pulse-btn" href="https://www.youtube.com/watch?v=YLN1Argi7ik"><i
+				<div class="play-btn" style="height: 95px;" id="introduction-btn">
+					<a  data-fancybox class="pulse-btn" id="introduction-btn" href="https://www.youtube.com/watch?v=YLN1Argi7ik"><i
 							class="fa fa-play"></i></a>
 				</div>
 				<h2 class="title pt-10 mb-0">INTRODUCTION</h2>
@@ -451,7 +452,7 @@
 							<div class="testi-desc">
 								<h5>【剑桥文凭颁发日 - 家长感触良多】| KLC Puchong | English Made Easier</h5>
 								<div class="iframeFrame mt-15">
-									<iframe
+									<iframe  id="testimonial-item1"
 										style="position: absolute; top:0; width: 100%; height: 100%; object-fit: cover;"
 										width="560" height="315" src="https://www.youtube.com/embed/NpOHuOE7LmE"
 										frameborder="0"
@@ -460,14 +461,14 @@
 								</div>
 							</div>
 						</div>
-						<div class="testimonial-item">
+						<div class="testimonial-item" >
 							<!-- <div class="testi-img">
 								<img src="images/testimonial/6.jpg" alt="Jhon Smith">
 							</div> -->
 							<div class="testi-desc">
 								<h5>Why KLC is the best choice for your child to build their English language foundation?</h5>
 								<div class="iframeFrame mt-15">
-									<iframe
+									<iframe id="testimonial-item2"
 										style="position: absolute; top:0; width: 100%; height: 100%; object-fit: cover;"
 										width="560" height="315" src="https://www.youtube.com/embed/TnxB1zcmhKc"
 										frameborder="0"
@@ -476,14 +477,14 @@
 								</div>
 							</div>
 						</div>
-						<div class="testimonial-item">
+						<div class="testimonial-item" >
 							<!-- <div class="testi-img">
 								<img src="images/testimonial/6.jpg" alt="Jhon Smith">
 							</div> -->
 							<div class="testi-desc">
 								<h5>Aidil Zafuan, Pemain Bola Sepak JDT : Takkan simply hantar anak kalau saya tak percaya tempat tu.</h5>
 								<div class="iframeFrame mt-15">
-									<iframe
+									<iframe id="testimonial-item3"
 										style="position: absolute; top:0; width: 100%; height: 100%; object-fit: cover;"
 										width="560" height="315" src="https://www.youtube.com/embed/bgw4MGuxkEc"
 										frameborder="0"
@@ -628,15 +629,15 @@
 								<div class="course-img">
 									<img src="images/branch/KLC-SRI-PETALING.jpg" alt="" />
 									<div class="course-toolbar">
-										<h4 class="course-category"><a href="#">KLC SRI PETALING <br> (SELANGOR)</a>
+										<h4 class="course-category"><a href="#">KLC SRI PETALING <br> (KUALA
+											LUMPUR)</a>
 										</h4>
 									</div>
 								</div>
 								<div class="course-img mt-5">
 									<img src="images/branch/KLC-BANDAR-PUTERI-PUCHONG.jpg" alt="" />
 									<div class="course-toolbar">
-										<h4 class="course-category"><a href="#">KLC BANDAR PUTERI PUCHONG <br> (KUALA
-												LUMPUR)</a></h4>
+										<h4 class="course-category"><a href="#">KLC BANDAR PUTERI PUCHONG <br> (SELANGOR)</a></h4>
 									</div>
 								</div>
 							</div>
@@ -646,7 +647,7 @@
 								<div class="course-img">
 									<img src="images/branch/KLC-MENTAKAB.jpg" alt="" />
 									<div class="course-toolbar">
-										<h4 class="course-category"><a href="#">KLC MENTAKAB <br> (JOHOR)</a></h4>
+										<h4 class="course-category"><a href="#">KLC MENTAKAB <br> (PAHANG)</a></h4>
 									</div>
 								</div>
 								<div class="course-img mt-5">
@@ -1246,7 +1247,34 @@
 	<!-- Load Facebook SDK for JavaScript -->
 	<div id="fb-root"></div>
 	
+    <script>
+		// document.getElementById('#introduction-btn').addEventListener("click",function(){
+		// 	alert('GA Start');
+		// 	console.log('GA Start');
+		// 	gtag('event', 'play', {
+        //          'event_category': 'Video',
+        //          'event_label': 'introduction',
+        //          });
+		// });
+		// function trackIntroductionBtn(){
+		// 	alert('GA Start');
+		// 	console.log('GA Start');
+		// 	gtag('event', 'play', {
+        //          'event_category': 'Video',
+        //          'event_label': 'introduction',
+        //          });
+		// }
 
+
+		// $( "#introduction-btn" ).click(function() {
+		// 	alert('GA Start');
+		// 	console.log('GA Start');
+		// 	gtag('event', 'play', {
+        //          'event_category': 'Video',
+        //          'event_label': 'introduction',
+        //          });
+        // });
+	</script>
 	
 
 	<!--facebook page plugin-->
@@ -1279,6 +1307,8 @@
 	<script src="js/plugins.js"></script>
 	<!-- main js -->
 	<script src="js/main.js"></script>
+	<!-- intersection observer -->
+	<script src="js/intersection-observer.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
